@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#10291f"><meta name="chain-gang-version" content="1.0.1"><title>Chain Gang | Disc Golf & Putting</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#10291f"><meta name="chain-gang-version" content="1.0.2"><title>Chain Gang | Disc Golf & Putting</title>
 <style>
 :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#e8f2ef;background:#0b1b16}*{box-sizing:border-box}body{margin:0;background:#0b1b16}button,input,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.35;cursor:not-allowed}.app{max-width:780px;margin:auto;min-height:100vh;padding-bottom:90px}.top{padding:24px 18px 12px;background:linear-gradient(150deg,#22563c,#15382c 65%,#0b1b16)}.eyebrow{color:#93b8ab;text-transform:uppercase;font-size:11px;letter-spacing:2px;font-weight:800}.top h1{font-size:31px;margin:5px 0}.top p{color:#a8bbb7;font-size:13px;margin:0}.container{padding:15px 16px}h2{font-size:21px;margin:6px 0 14px}h3{font-size:16px;margin:2px 0 12px}.muted{color:#97aba8}.small{font-size:12px}.hero{background:linear-gradient(135deg,#3d8649,#245d37);border:1px solid #78aa5d;border-radius:18px;padding:19px;margin-bottom:14px}.hero h2{font-size:25px;margin:0 0 8px}.hero p{margin:0 0 15px;color:#cce4da}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tile,.card{background:#152d25;border:1px solid #315044;border-radius:15px;padding:16px}.tile{text-align:left;min-height:108px;color:#eef8f4}.tile b{display:block;font-size:16px;margin:9px 0 3px}.tile span{color:#9db4ae;font-size:12px}.tile .emoji{font-size:25px}.card{margin-bottom:12px}.primary,.secondary,.danger,.ghost{border:0;border-radius:11px;padding:12px 15px;font-weight:750}.primary{background:#d2f17b;color:#172511}.secondary{background:#263c42;color:#e6f3ed;border:1px solid #41615c}.danger{background:#4b2830;color:#ffd4d9}.ghost{background:none;color:#afdfbe;border:1px solid #35594c}.wide{width:100%}.actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.actions>*{flex:1}.field{display:block;font-size:13px;color:#bad0c8;font-weight:650;margin:12px 0}.field input,.field select{display:block;width:100%;margin-top:6px;background:#0c241b;color:white;border:1px solid #3a5058;border-radius:10px;padding:11px;min-height:43px}.field input:focus{outline:2px solid #d2f17b}.chips{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0}.chip{padding:10px 12px;border:1px solid #425c57;border-radius:100px;background:#172932;color:#e6f5ec}.chip.on{background:#d2f17b;color:#17260d}.badge{background:#27483b;color:#b9e9ce;border-radius:60px;padding:5px 9px;font-size:11px;font-weight:750}.row{display:flex;align-items:center;justify-content:space-between;gap:12px}.row+.row{border-top:1px solid #345344;padding-top:12px;margin-top:12px}.scoretable{width:100%;border-collapse:separate;border-spacing:0 5px;font-size:13px}.scoretable th{text-align:left;color:#9fb7b0;font-size:11px;padding:5px}.scoretable td{background:#1d382c;padding:7px 5px}.scoretable td:first-child{border-radius:8px 0 0 8px}.scoretable td:last-child{border-radius:0 8px 8px 0}.scoreinput{width:61px;max-width:100%;background:#0c241b;color:white;border:1px solid #42615d;border-radius:7px;padding:9px 4px;text-align:center}.scoreinput.match{width:74px}.scroll{overflow-x:auto}table.standings{width:100%;border-collapse:collapse;font-size:13px}.standings th{text-align:left;font-size:11px;color:#a0b5ae;font-weight:650}.standings td,.standings th{padding:11px 7px;border-bottom:1px solid #2e4146}.standings td:first-child{font-weight:750}.pos{font-weight:850;color:#d2f17b}.match{padding:13px 0;border-bottom:1px solid #345344}.match:last-child{border-bottom:0}.matchnames{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;font-size:13px;font-weight:650}.matchnames span:last-child{text-align:right}.matchinputs{display:flex;gap:10px;align-items:center;justify-content:center;margin-top:8px}.matchinputs input{width:88px;background:#0b191f;color:#eef7ef;border:1px solid #46605c;border-radius:9px;padding:9px;text-align:center}.matchinputs b{color:#869d96;font-size:12px}.bottom{position:fixed;bottom:0;left:0;right:0;background:#12271f;border-top:1px solid #344a48;display:flex;justify-content:center;z-index:2;padding:8px 8px max(8px,env(safe-area-inset-bottom))}.nav{max-width:780px;width:100%;display:grid;grid-template-columns:repeat(4,1fr)}.nav button{color:#92a9a2;background:transparent;border:0;padding:6px 3px;font-size:10px}.nav button span{display:block;font-size:22px;margin-bottom:2px}.nav button.current{color:#d2f17b}.statbar{display:flex;gap:6px;flex-wrap:wrap}.stat{background:#1d3433;padding:8px 11px;border-radius:10px;font-size:12px}.empty{text-align:center;color:#a8bcb2;padding:35px 10px}.note{background:#25352b;border-left:3px solid #d2f17b;border-radius:7px;padding:11px;font-size:12px;color:#c9e4d4;margin:12px 0}.inline{display:flex;align-items:center;gap:8px}.inline>*{flex:1}.divider{border:0;border-top:1px solid #345344;margin:16px 0}.linkbtn{background:transparent;border:0;color:#b8ec9f;padding:7px 0;text-align:left}.mini{padding:8px 10px;font-size:12px}.pill{padding:5px 8px;border-radius:8px;background:#2b403e;color:#d4f1e1;font-size:12px}.tabs{display:flex;gap:6px;margin-bottom:14px}.tabs button{flex:1;border:1px solid #38544e;background:#15262b;color:#aec7bc;border-radius:8px;padding:10px;font-size:12px}.tabs button.active{background:#d2f17b;color:#10200e}.warning{color:#ffd1aa;font-size:12px}.version-footnote{text-align:center;color:#819e92;font-size:11px;letter-spacing:.4px;padding:14px 12px 7px} @media(min-width:620px){.grid{grid-template-columns:repeat(4,1fr)}.container{padding:22px}.top{padding:28px 24px}}
 .top{position:relative;overflow:hidden;border-bottom:1px solid #3a6544}.top::after{content:'🥏';position:absolute;right:19px;top:23px;font-size:60px;opacity:.15;transform:rotate(-22deg);pointer-events:none}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#235f39,#1a402e 73%);border-color:#578c50}.hero::after{content:'🥏';position:absolute;right:-12px;bottom:-31px;font-size:135px;opacity:.16;transform:rotate(-26deg);pointer-events:none}.hero h2,.hero p,.hero button{position:relative;z-index:1}.finish-banner{text-align:center;background:linear-gradient(145deg,#214d31,#19382b);border-color:#679651;padding:22px}.finish-banner h2{margin:6px 0 12px}.finish-disc{font-size:64px;margin-bottom:7px}.next-choices{display:grid;gap:11px;margin:18px 0 28px}.next-choices button{min-height:60px;text-align:left;padding:14px 17px;font-size:15px}.next-choices button span{display:block;margin-top:5px;font-weight:450;font-size:11px;opacity:.8}.tile{transition:transform .15s ease}.tile:active{transform:scale(.97)}
@@ -22,32 +22,32 @@
 
 /* Disc flip tournament draw */
 .flip-layer{position:fixed;inset:0;z-index:3000;overflow-y:auto;background:radial-gradient(circle at 50% 20%,#2d7b45 0%,#174f34 38%,#0d3326 70%,#061d17 100%);color:#f3ffef;padding:18px 12px max(28px,env(safe-area-inset-bottom));text-align:center}
-.flip-shell{max-width:980px;margin:0 auto}.flip-title{font-size:clamp(28px,6vw,46px);font-weight:950;letter-spacing:1px;margin:10px 0 6px}.flip-sub{color:#d9f0cf;font-size:14px;margin:4px auto 12px;max-width:700px}.flip-stage{position:relative;height:min(60vh,620px);min-height:390px;margin:18px auto 10px;max-width:930px;border-radius:28px;border:1px solid #8abb6e77;background:radial-gradient(circle at 50% 12%,#3d925d33,#0000 38%),linear-gradient(180deg,#0f3f2d99,#08271ddd);box-shadow:inset 0 0 0 1px #f6ffd40d,inset 0 -24px 50px #00000030,0 18px 50px #00000044;overflow:hidden}
+.flip-shell{max-width:980px;margin:0 auto}.flip-title{font-size:clamp(28px,6vw,46px);font-weight:950;letter-spacing:1px;margin:10px 0 6px}.flip-sub{color:#d9f0cf;font-size:14px;margin:4px auto 12px;max-width:760px}
+.flip-stage{position:relative;height:min(60vh,620px);min-height:390px;margin:18px auto 10px;max-width:930px;border-radius:28px;border:1px solid #8abb6e77;background:radial-gradient(circle at 50% 12%,#3d925d33,#0000 38%),linear-gradient(180deg,#0f3f2d99,#08271ddd);box-shadow:inset 0 0 0 1px #f6ffd40d,inset 0 -24px 50px #00000030,0 18px 50px #00000044;overflow:hidden;perspective:1200px;isolation:isolate}
 .flip-stage::before,.flip-stage::after{content:'';position:absolute;border-radius:50%;filter:blur(1px);opacity:.28;pointer-events:none}.flip-stage::before{width:220px;height:220px;left:-60px;top:-50px;background:radial-gradient(circle,#ffffff2a 0,#ffffff05 55%,transparent 70%)}.flip-stage::after{width:260px;height:260px;right:-90px;bottom:-90px;background:radial-gradient(circle,#a3ffce22 0,#7dffbc10 48%,transparent 70%)}
-.flip-player{position:absolute;left:50%;top:50%;width:136px;transform:translate(-50%,-50%);display:grid;justify-items:center;gap:8px;font-weight:900;font-size:13px;transition:left .55s ease,top .55s ease}.flip-player .disc-name{background:#071f16b8;border:1px solid #b7ef9b44;padding:4px 10px;border-radius:999px;color:#f3ffef;box-shadow:0 4px 14px #00000024}
-.flip-disc{--dur:1.7s;--delay:0s;--tilt:16deg;width:min(100%,118px);aspect-ratio:1;position:relative;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.18,.55,.24,1);filter:drop-shadow(0 12px 10px #001a1399)}.flip-disc.bottom{transform:rotateY(180deg)}
-.flip-disc.spin{animation-duration:var(--dur);animation-delay:var(--delay);animation-iteration-count:infinite;animation-fill-mode:both}
-.flip-disc.mode-air.spin{animation-name:disc-air}.flip-disc.mode-roll.spin{animation-name:disc-roll}.flip-disc.mode-quarter.spin{animation-name:disc-quarter}.flip-disc.mode-wobble.spin{animation-name:disc-wobble}
-.flip-face{position:absolute;inset:0;border-radius:50%;backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;border:7px double var(--ring,#f2f7bd);box-shadow:inset 0 0 0 5px #ffffff22,0 0 0 2px #052d18;background:repeating-radial-gradient(circle at center,var(--front1,#9fd451) 0px,var(--front1,#9fd451) 5px,var(--front2,#6a9330) 6px,var(--front3,#88af3f) 11px);color:#18270c;text-shadow:0 1px 1px #fff7;line-height:1.15;padding:7px;font-size:12px;overflow-wrap:anywhere}
-.flip-face.back{transform:rotateY(180deg);background:repeating-radial-gradient(circle at center,var(--back1,#ffd48c) 0px,var(--back1,#ffd48c) 5px,var(--back2,#e1843c) 6px,var(--back3,#f0a453) 11px);color:#2f170c;border-color:var(--ringBack,#fff0b3)}
+.flip-player{position:absolute;left:50%;top:50%;width:136px;transform:translate(-50%,-50%);display:grid;justify-items:center;gap:8px;font-weight:900;font-size:13px;transition:left .55s ease,top .55s ease;z-index:2}.flip-player .disc-name{background:#071f16b8;border:1px solid #b7ef9b44;padding:4px 10px;border-radius:999px;color:#f3ffef;box-shadow:0 4px 14px #00000024}.flip-player.parked{left:12%!important;top:52%!important;z-index:3}.flip-player.parked .disc-name{border-color:#ffe09e88;background:#2b190ab8}
+.flip-disc{--dur:2.2s;width:min(100%,118px);aspect-ratio:1;position:relative;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.18,.55,.24,1);filter:drop-shadow(0 12px 10px #001a1399);background:transparent;will-change:transform}.flip-disc.bottom{transform:rotateY(180deg)}
+.flip-disc.spin{animation-duration:var(--dur);animation-timing-function:cubic-bezier(.2,.72,.23,1);animation-iteration-count:1;animation-fill-mode:none}.flip-disc.mode-air.spin{animation-name:disc-air}.flip-disc.mode-roll.spin{animation-name:disc-roll}.flip-disc.mode-quarter.spin{animation-name:disc-quarter}.flip-disc.mode-wobble.spin{animation-name:disc-wobble}
+.flip-face{position:absolute;inset:0;border-radius:50%;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;border:7px double var(--ring,#f2f7bd);box-shadow:inset 0 0 0 5px #ffffff22,0 0 0 2px #052d18;background:repeating-radial-gradient(circle at center,var(--front1,#9fd451) 0px,var(--front1,#9fd451) 5px,var(--front2,#6a9330) 6px,var(--front3,#88af3f) 11px);color:#18270c;text-shadow:0 1px 1px #fff7;line-height:1.15;padding:7px;font-size:12px;overflow-wrap:anywhere;overflow:hidden;transform:translateZ(1px)}
+.flip-face.back{transform:rotateY(180deg) translateZ(1px);background:repeating-radial-gradient(circle at center,var(--back1,#ffd48c) 0px,var(--back1,#ffd48c) 5px,var(--back2,#e1843c) 6px,var(--back3,#f0a453) 11px);color:#2f170c;border-color:var(--ringBack,#fff0b3)}
 .flip-face b{font-size:22px;letter-spacing:1px}.flip-face span{font-weight:850;font-size:clamp(10px,2.5vw,13px);max-width:100%}
-.flip-result{font-size:12px;letter-spacing:1px;padding:5px 10px;border-radius:30px;background:#d4f29a;color:#183018;box-shadow:0 4px 14px #00000024}.flip-result.bottom{background:#ffba81;color:#47250b}
+.flip-result{font-size:12px;letter-spacing:1px;padding:5px 10px;border-radius:30px;background:#d4f29a;color:#183018;box-shadow:0 4px 14px #00000024}.flip-result.bottom{background:#ffba81;color:#47250b}.flip-badge{font-size:11px;font-weight:900;letter-spacing:.6px;padding:4px 8px;border-radius:999px;background:#2c1a0b;color:#ffe4af;border:1px solid #ffc96e55}
 .flip-player[data-palette='0'] .flip-disc{--front1:#98f381;--front2:#52a540;--front3:#74c25b;--back1:#d6ff9f;--back2:#89b851;--back3:#a8db6d;--ring:#eefed4;--ringBack:#f5ffd5}
 .flip-player[data-palette='1'] .flip-disc{--front1:#88d8ff;--front2:#3e7eb7;--front3:#5aa4df;--back1:#b8e8ff;--back2:#4f95c8;--back3:#78bae5;--ring:#ddf4ff;--ringBack:#e7f7ff}
 .flip-player[data-palette='2'] .flip-disc{--front1:#ffc4e2;--front2:#cf6095;--front3:#ea8ab7;--back1:#ffd5ee;--back2:#d976a4;--back3:#f0a7cb;--ring:#fff0f8;--ringBack:#fff2f9}
 .flip-player[data-palette='3'] .flip-disc{--front1:#ffe48e;--front2:#d29b2c;--front3:#efbf55;--back1:#ffeec2;--back2:#dfa640;--back3:#f4ca74;--ring:#fff4d2;--ringBack:#fff5d7}
-@keyframes disc-air{0%{transform:translateY(0) rotateZ(0deg) rotateY(0deg) scale(1)}24%{transform:translateY(-18px) rotateZ(-14deg) rotateY(420deg) scale(1.03)}55%{transform:translateY(-42px) rotateZ(20deg) rotateY(980deg) scale(1.06)}100%{transform:translateY(0) rotateZ(4deg) rotateY(1440deg) scale(1)}}
-@keyframes disc-roll{0%{transform:translate(0,0) rotateZ(0deg) rotateY(0deg)}20%{transform:translate(12px,-6px) rotateZ(22deg) rotateY(320deg)}70%{transform:translate(42px,4px) rotateZ(290deg) rotateY(900deg)}100%{transform:translate(0,0) rotateZ(360deg) rotateY(1260deg)}}
-@keyframes disc-quarter{0%{transform:rotateX(74deg) rotateZ(0deg) scaleX(.92)}15%{transform:rotateX(82deg) rotateZ(65deg) scaleX(.45)}30%{transform:rotateX(86deg) rotateZ(130deg) scaleX(.2)}55%{transform:rotateX(82deg) rotateZ(240deg) scaleX(.42)}100%{transform:rotateX(74deg) rotateZ(360deg) scaleX(.92)}}
-@keyframes disc-wobble{0%{transform:translateY(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg)}22%{transform:translateY(-12px) rotateX(54deg) rotateY(500deg) rotateZ(6deg)}48%{transform:translateY(-8px) rotateX(-36deg) rotateY(990deg) rotateZ(-6deg)}76%{transform:translateY(3px) rotateX(18deg) rotateY(1380deg) rotateZ(2deg)}100%{transform:translateY(0) rotateX(0deg) rotateY(1440deg) rotateZ(0deg)}}
+@keyframes disc-air{0%{transform:translate3d(0,0,0) rotateZ(0deg) rotateY(0deg) scale(1)}22%{transform:translate3d(-8px,-22px,0) rotateZ(-10deg) rotateY(240deg) scale(1.02)}58%{transform:translate3d(6px,-34px,0) rotateZ(14deg) rotateY(760deg) scale(1.05)}100%{transform:translate3d(0,0,0) rotateZ(0deg) rotateY(1080deg) scale(1)}}
+@keyframes disc-roll{0%{transform:translate3d(0,0,0) rotateZ(0deg) rotateY(0deg)}24%{transform:translate3d(16px,-8px,0) rotateZ(26deg) rotateY(180deg)}70%{transform:translate3d(28px,2px,0) rotateZ(220deg) rotateY(700deg)}100%{transform:translate3d(0,0,0) rotateZ(360deg) rotateY(1080deg)}}
+@keyframes disc-quarter{0%{transform:translate3d(0,0,0) rotateZ(0deg) rotateY(0deg) scale(1)}20%{transform:translate3d(0,-18px,0) rotateZ(-8deg) rotateY(360deg) scale(1.03)}56%{transform:translate3d(0,-10px,0) rotateZ(10deg) rotateY(900deg) scale(1.06)}100%{transform:translate3d(0,0,0) rotateZ(0deg) rotateY(1440deg) scale(1)}}
+@keyframes disc-wobble{0%{transform:translate3d(0,0,0) rotateZ(0deg) rotateY(0deg)}25%{transform:translate3d(-10px,-14px,0) rotateZ(-6deg) rotateY(300deg)}50%{transform:translate3d(12px,-16px,0) rotateZ(7deg) rotateY(720deg)}78%{transform:translate3d(-4px,-4px,0) rotateZ(-3deg) rotateY(980deg)}100%{transform:translate3d(0,0,0) rotateZ(0deg) rotateY(1260deg)}}
 .flip-teams{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;text-align:left;margin:14px 0}.flip-team{background:#092c1fcc;border:1px solid #8aa955;border-radius:13px;padding:13px}.flip-team strong{display:block;color:#d8fa8e;font-size:12px;margin-bottom:7px}.flip-teams .flip-team p{margin:0;font-size:15px;font-weight:800}
 .flip-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px auto 6px}.flip-actions button{min-width:145px}.flip-order-btn{margin:10px 0 4px;width:100%;background:#376b40;color:#eeffde;border:1px solid #8bb85a;border-radius:12px;padding:13px 15px;font-weight:850}.flip-count{color:#efffc9;font-size:14px;min-height:22px;font-weight:850}
 .flip-hype{color:#fff7c6;font-size:13px;font-weight:800;letter-spacing:.4px;min-height:19px;margin-bottom:2px}.flip-legend{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:-3px;margin-bottom:8px}.flip-legend .chip{background:#08291db3;border:1px solid #c8f0a955;color:#efffd7;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:800}
-@media (max-width:700px){.flip-stage{height:min(58vh,520px);min-height:360px}.flip-player{width:108px}.flip-disc{width:94px}.flip-face b{font-size:18px}.flip-player .disc-name{font-size:12px;padding:3px 8px}}
+@media (max-width:700px){.flip-stage{height:min(58vh,520px);min-height:360px}.flip-player{width:108px}.flip-disc{width:94px}.flip-face b{font-size:18px}.flip-player .disc-name{font-size:12px;padding:3px 8px}.flip-player.parked{left:16%!important;top:54%!important}}
 @media(prefers-reduced-motion:reduce){.flip-disc.spin{animation:none}.flip-player{transition:none}}
 </style></head><body><div id="app" class="app"></div><script>
 'use strict';
-const APP_VERSION='1.0.1';
+const APP_VERSION='1.0.2';
 const K='clubhouse-golf-v1';const uid=()=>Math.random().toString(36).slice(2,10);const today=()=>new Date().toLocaleDateString('en-CA');
 let data;try{data=JSON.parse(localStorage.getItem(K))}catch{};data=data||{players:[],rounds:[],puttings:[],draftRound:null,draftPutting:null};
 // Preload the core roster for new and existing installs, without changing recorded results.
@@ -100,24 +100,20 @@ let flipState=null,flipTimeout=null;
 const FLIP_PALETTES=[0,1,2,3],FLIP_MOTIONS=['air','roll','quarter','wobble'];
 function shuffle(list){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function rand(min,max){return Math.random()*(max-min)+min}
-function generateFlipVisuals(ids,prior=[]){
- const positions=[]; const visuals=[];
- const n=ids.length;
+function generateFlipVisuals(ids){
+ const positions=[]; const n=ids.length;
  for(let i=0;i<n;i++){
   let x=50,y=50,tries=0;
   while(tries<50){
-   x=rand(12,88); y=rand(18,80);
-   if(!positions.some(p=>((p.x-x)**2)+((p.y-y)**2) < (n<=6?260:190))) break;
+   x=rand(14,86); y=rand(18,80);
+   if(!positions.some(p=>((p.x-x)**2)+((p.y-y)**2) < (n<=6?280:210))) break;
    tries++;
   }
   positions.push({x,y});
  }
  const palettes=shuffle(FLIP_PALETTES.concat(FLIP_PALETTES)).slice(0,n);
  const motions=shuffle(FLIP_MOTIONS.concat(FLIP_MOTIONS,FLIP_MOTIONS)).slice(0,n);
- return ids.map((id,i)=>({
-   x:positions[i].x,y:positions[i].y,palette:palettes[i%palettes.length],motion:motions[i%motions.length],
-   delay:(-rand(.15,1.05)).toFixed(2)+'s',dur:rand(2.8,3.35).toFixed(2)+'s'
- }))
+ return ids.map((id,i)=>({x:positions[i].x,y:positions[i].y,palette:palettes[i%palettes.length],motion:motions[i%motions.length],dur:'2.2s'}))
 }
 function openDiscFlip(context){
  const ids=[...(context==='golf'||context==='custom'?selectedIds:puttingTeamIds||seedIds())];
@@ -131,11 +127,15 @@ function showFlipOverlay(){
  let overlay=document.createElement('section');overlay.id='discFlipOverlay';overlay.className='flip-layer';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','Flip for order');document.body.appendChild(overlay);
  document.body.style.overflow='hidden';drawFlipScreen();
 }
+function parkedStyle(f,i){
+ if(f.lockedIndex===i && !f.done) return 'left:12%;top:52%';
+ const v=f.visuals?.[i]||{x:50,y:50};return `left:${v.x}%;top:${v.y}%`;
+}
 function drawFlipScreen(){
  const f=flipState,el=document.getElementById('discFlipOverlay');if(!f||!el)return;
  let top=f.results.filter(v=>v==='TOP').length,bottom=f.results.filter(v=>v==='BOTTOM').length;
  const teamCards=f.done?Array.from({length:f.order.length/2},(_,i)=>`<div class="flip-team"><strong>TEAM ${i+1} · ${f.results[f.ids.indexOf(f.order[i*2])]}</strong><p>${esc(name(f.order[i*2]))} &amp; ${esc(name(f.order[i*2+1]))}</p></div>`).join(''):'';
- el.innerHTML=`<div class="flip-shell"><div class="eyebrow">🥏 CHAIN GANG / DOUBLES</div><div class="flip-title">FLIP FOR ORDER</div><p class="flip-sub">Each disc settles on TOP or BOTTOM. For a 3–1 split, the lone disc stays put while only the other three flip again. TOP pairs with TOP; BOTTOM pairs with BOTTOM.</p><div class="flip-hype">${esc(f.hype||'')}</div><div class="flip-count" aria-live="polite">${f.flipping?'🥏 Only the unsettled discs are flying…':f.done?`${top} TOP · ${bottom} BOTTOM · ${f.order.length/2} teams assigned`:'Ready to flip'}</div><div class="flip-legend"><span class="chip">TOP + TOP = team</span><span class="chip">BOTTOM + BOTTOM = team</span><span class="chip">Drag-free random fun</span></div><div class="flip-stage">${f.ids.map((id,i)=>{const v=f.visuals?.[i]||{x:50,y:50,palette:i%4,motion:'air',delay:'0s',dur:'1.7s'};return `<div class="flip-player" data-palette="${v.palette}" style="left:${v.x}%;top:${v.y}%"><div class="flip-disc ${f.flipping&&f.results[i]===null?'spin mode-'+v.motion:''} ${f.results[i]==='BOTTOM'?'bottom':''}" style="--delay:${v.delay};--dur:${v.dur}"><div class="flip-face front"><b>TOP</b><span>${esc(name(id))}</span></div><div class="flip-face back"><b>BOTTOM</b><span>${esc(name(id))}</span></div></div><div class="disc-name">${esc(name(id))}</div>${f.results[i]?`<span class="flip-result ${f.results[i]==='BOTTOM'?'bottom':''}">${f.results[i]}</span>`:''}</div>`}).join('')}</div>${f.done?`<h3>🎉 Your teams</h3><div class="flip-teams">${teamCards}</div>`:`<p class="flip-sub">${f.spins>1?`Re-flip ${f.spins}: still balancing the stacks…`:'No peeking — let the discs settle.'}</p>`}<div class="flip-actions">${f.done?`<button class="primary" onclick="applyDiscFlip()">✓ Return to setup &amp; use these teams</button><button class="secondary" onclick="runDiscFlip()">↻ Flip again</button>`:''}<button class="ghost" onclick="closeDiscFlip()">${f.done?'Cancel / keep old teams':'Back to setup'}</button></div></div>`;
+ el.innerHTML=`<div class="flip-shell"><div class="eyebrow">🥏 CHAIN GANG / DOUBLES</div><div class="flip-title">FLIP FOR ORDER</div><p class="flip-sub">Each disc settles on TOP or BOTTOM. If it lands 3–1, the lone disc gets parked to the side and only the other three flip again. TOP pairs with TOP, and BOTTOM pairs with BOTTOM.</p><div class="flip-hype">${esc(f.hype||'')}</div><div class="flip-count" aria-live="polite">${f.flipping?'🥏 Active discs are flipping…':f.done?`${top} TOP · ${bottom} BOTTOM · ${f.order.length/2} teams assigned`:'Ready to flip'}</div><div class="flip-legend"><span class="chip">TOP + TOP = team</span><span class="chip">BOTTOM + BOTTOM = team</span><span class="chip">Park the lone disc on a 3–1 split</span></div><div class="flip-stage">${f.ids.map((id,i)=>{const v=f.visuals?.[i]||{palette:i%4,motion:'air',dur:'2.2s'};const parked=f.lockedIndex===i&&!f.done;return `<div class="flip-player ${parked?'parked':''}" data-palette="${v.palette}" style="${parkedStyle(f,i)}"><div class="flip-disc ${f.flipping&&f.results[i]===null?'spin mode-'+v.motion:''} ${f.results[i]==='BOTTOM'?'bottom':''}" style="--dur:${v.dur}"><div class="flip-face front"><b>TOP</b><span>${esc(name(id))}</span></div><div class="flip-face back"><b>BOTTOM</b><span>${esc(name(id))}</span></div></div><div class="disc-name">${esc(name(id))}</div>${f.results[i]?`<span class="flip-result ${f.results[i]==='BOTTOM'?'bottom':''}">${f.results[i]}</span>`:''}${parked?'<span class="flip-badge">PARKED</span>':''}</div>`}).join('')}</div>${f.done?`<h3>🎉 Your teams</h3><div class="flip-teams">${teamCards}</div>`:`<p class="flip-sub">${f.spins>1?'The parked disc stays put while the unsettled discs toss again.':'Watch them settle, then we pair them up.'}</p>`}<div class="flip-actions">${f.done?`<button class="primary" onclick="applyDiscFlip()">✓ Return to setup &amp; use these teams</button><button class="secondary" onclick="runDiscFlip()">↻ Flip again</button>`:''}<button class="ghost" onclick="closeDiscFlip()">${f.done?'Cancel / keep old teams':'Back to setup'}</button></div></div>`;
 }
 function randomFlipSide(){return Math.random()<.5?'TOP':'BOTTOM'}
 function runDiscFlip(){
@@ -147,31 +147,23 @@ function describeReroll(results,lockedIndex=null){
  const n=results.length;
  const topIdx=results.map((v,i)=>v==='TOP'?i:-1).filter(i=>i!==-1);
  const bottomIdx=results.map((v,i)=>v==='BOTTOM'?i:-1).filter(i=>i!==-1);
- // Once a lone disc has been parked, it NEVER joins a re-flip.
- // This is important even when all the other three land on its same side.
  if(lockedIndex!==null && lockedIndex>=0 && lockedIndex<n){
-  return {reroll:results.map((_,i)=>i).filter(i=>i!==lockedIndex),lockedIndex,
-    text:`${name(flipState.ids[lockedIndex])} stays parked. Only the other ${n-1} discs flip again!`};
+  return {reroll:results.map((_,i)=>i).filter(i=>i!==lockedIndex),lockedIndex,text:`${name(flipState.ids[lockedIndex])} is parked. Only the other ${n-1} discs flip again.`};
  }
  if(!topIdx.length || !bottomIdx.length){
-  return {reroll:results.map((_,i)=>i),lockedIndex:null,text:'Every disc landed on the same side! Everybody flips again.'};
+  return {reroll:results.map((_,i)=>i),lockedIndex:null,text:'All discs matched. Full re-flip!'};
  }
  const minority=topIdx.length<bottomIdx.length?topIdx:bottomIdx.length<topIdx.length?bottomIdx:null;
- // Four-player 3–1: hold the solo disc and only re-flip the three.
- // For larger even groups, hold the minority group when odd, re-flip the rest.
  if(minority){
   const locked=minority.length===1?minority[0]:null;
   return {reroll:results.map((_,i)=>i).filter(i=>!minority.includes(i)),lockedIndex:locked,
-   text:minority.length===1?`${name(flipState.ids[locked])} is the lone disc — holding it aside. Re-flipping the other ${n-1}!`:`Holding ${minority.length} discs. Only the larger stack flips again!`};
+   text:minority.length===1?`${name(flipState.ids[locked])} is the lone ${results[locked]} disc — parked on the side.`:`Holding the ${minority.length}-disc minority group. Re-flipping the larger stack.`};
  }
- // A 3–3 tie with six players also needs new flips; park one and re-flip the rest.
  const keep=topIdx[0];
- return {reroll:results.map((_,i)=>i).filter(i=>i!==keep),lockedIndex:keep,
-  text:'Odd groups! Holding one disc and re-flipping the others to find pairs.'};
+ return {reroll:results.map((_,i)=>i).filter(i=>i!==keep),lockedIndex:keep,text:'Holding one disc aside and re-flipping the rest.'};
 }
 function performFlipRound(){
  const f=flipState;if(!f)return;
- // Show all landed results during the suspense pause, then clear only discs being re-flipped.
  if(f.pendingReroll){
   const next=new Set(f.pendingReroll);
   f.results=f.results.map((v,i)=>next.has(i)?null:v);
@@ -180,7 +172,7 @@ function performFlipRound(){
   f.pendingReroll=null;
  }
  f.flipping=true;f.spins++;
- f.hype=f.spins===1?'Tossing the discs… watch where they settle!':'The parked discs stay! The others are flying…';
+ f.hype=f.spins===1?'Tossing the discs… watch where they settle!':'The parked disc stays put — the others are tossing again.';
  drawFlipScreen();
  flipTimeout=setTimeout(()=>{
   if(flipState!==f)return;
@@ -189,10 +181,9 @@ function performFlipRound(){
   const topCount=results.filter(x=>x==='TOP').length;
   if(topCount%2===0 && topCount>=2 && results.length-topCount>=2){
    f.order=[...f.ids.filter((_,i)=>results[i]==='TOP'),...f.ids.filter((_,i)=>results[i]==='BOTTOM')];
-   f.done=true;f.hype='They landed! Teams are locked in. 🥏';drawFlipScreen();return;
+   f.done=true;f.hype='They landed clean. Teams locked in. 🥏';drawFlipScreen();return;
   }
   if(f.spins>=24){
-   // After a very long run of unlucky flips, pick a balanced finish while honoring a parked disc.
    const target=Math.max(2,Math.min(f.ids.length-2,2*Math.floor(f.ids.length/4)));
    const others=shuffle(f.ids.map((_,i)=>i).filter(i=>i!==f.lockedIndex));
    const fixed=f.lockedIndex;
@@ -201,16 +192,15 @@ function performFlipRound(){
    const topIndices=others.slice(0,topGoal);
    f.results=results.map((_,i)=>i===fixed?fixedSide:(topIndices.includes(i)?'TOP':'BOTTOM'));
    f.order=[...f.ids.filter((_,i)=>f.results[i]==='TOP'),...f.ids.filter((_,i)=>f.results[i]==='BOTTOM')];
-   f.done=true;f.hype='What a marathon! The teams are finally set.';drawFlipScreen();return;
+   f.done=true;f.hype='That was a long one — house rules set the teams.';drawFlipScreen();return;
   }
   const plan=describeReroll(results,f.lockedIndex);
   f.lockedIndex=plan.lockedIndex;
   f.pendingReroll=plan.reroll;
-  f.hype=plan.text+' Watch the result before the next toss…';
+  f.hype=plan.text+' Let them sit for a second…';
   drawFlipScreen();
-  // A longer pause makes the landing visible, rather than immediately erasing every disc.
-  flipTimeout=setTimeout(()=>{if(flipState===f)performFlipRound()},1800);
- },3500);
+  flipTimeout=setTimeout(()=>{if(flipState===f)performFlipRound()},1700);
+ },2200);
 }
 function closeDiscFlip(){if(flipTimeout)clearTimeout(flipTimeout);flipTimeout=null;flipState=null;document.getElementById('discFlipOverlay')?.remove();document.body.style.overflow=''}
 function applyDiscFlip(){
